@@ -36,7 +36,7 @@ Hasil perhitungan statistik deskriptif menunjukkan:
     * *Insight:* Mayoritas Drama Korea memiliki rating tinggi (di atas rata-rata), menunjukkan kepuasan penonton yang tinggi.
 * **Episode (Modus: 16):**
     * Distribusi data **Right Skewed (4.92)**.
-    * *Insight:* Sebagian besar drama mengikuti format standar 16 episode. Drama dengan episode sangat panjang (>50) adalah *outlier* (biasanya drama keluarga/harian).
+    * *Insight:* Sebagian besar drama mengikuti format standar 16 episode. 
 * **Korelasi (0.27):**
     * Hubungan antara jumlah episode dan rating sangat lemah. Durasi panjang tidak menjamin rating tinggi.
 
