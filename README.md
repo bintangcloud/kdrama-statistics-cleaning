@@ -25,7 +25,8 @@ Berdasarkan hasil *assessment*, kualitas data sudah cukup baik. Hanya ditemukan 
 | Masalah Ditemukan (Issue) | Teknik Cleaning | Tindakan (Action) |
 | :--- | :--- | :--- |
 | **Encoding Error** | Standardization | Memperbaiki karakter simbol aneh (seperti `â€™`) pada kolom *Description* menjadi format teks standar. |
-| **Data Verification** | Audit | Memverifikasi adanya *Missing Value* (Data Kosong) pada 5 kolom *Genre*,*Tags*, dan *Actors* yang kemudian di *Imputation* dengan *Unknown*. Serta tidak ditemukan *Duplicate* (Data Ganda) pada kolom utama. |
+| **Data Verification** | Audit & Imputation | Memverifikasi adanya *Missing Value* (Data Kosong) pada 5 kolom *Genre*,*Tags*, dan *Actors* yang kemudian di isi dengan *Unknown*. Serta tidak ditemukan *Duplicate* (Data Ganda) pada kolom utama. |
+| **Invalid Format** | Type Conversion | Memvalidasi bahwa kolom **Rating** dan **Episodes** sudah berformat *Numeric* (bukan Text) agar perhitungan statistik akurat. |
 
 ### 2. Statistik Dasar (Insights)
 Hasil perhitungan statistik deskriptif menunjukkan:
