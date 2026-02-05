@@ -9,7 +9,7 @@ Repository ini berisi dokumentasi proses **Data Cleaning** dan perhitungan **Sta
 2.  **Statistik Dasar:** Mengukur *Central Tendency* (Mean, Median) dan distribusi data (Skewness) untuk variabel Rating dan Episode.
 
 ## 📂 Dataset Info
-- **Sumber:** Kaggle
+- **Sumber:** [Kaggle](https://www.kaggle.com/datasets/saikalbatyrbekova/korean-dramas-dataset-eda)
 - **Data:** 350 Judul Drama
 - **Variabel Utama:** `Rating`, `Number of Episodes`, `Year of Release`.
 
@@ -25,7 +25,7 @@ Berdasarkan hasil *assessment*, kualitas data sudah cukup baik. Hanya ditemukan 
 | Masalah Ditemukan (Issue) | Teknik Cleaning | Tindakan (Action) |
 | :--- | :--- | :--- |
 | **Encoding Error** | Standardization | Memperbaiki karakter simbol aneh (seperti `â€™`) pada kolom *Description* menjadi format teks standar. |
-| **Data Verification** | Audit | Memverifikasi tidak adanya *Missing Value* (Data Kosong) dan *Duplicate* (Data Ganda) pada kolom utama. |
+| **Data Verification** | Audit | Memverifikasi adanya *Missing Value* (Data Kosong) pada 5 kolom *Genre*,*Tags*, dan *Actors* yang kemudian di *Imputation* dengan *Unknown*. Serta tidak ditemukan *Duplicate* (Data Ganda) pada kolom utama. |
 
 ### 2. Statistik Dasar (Insights)
 Hasil perhitungan statistik deskriptif menunjukkan:
